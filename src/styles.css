@@ -1,0 +1,159 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 18px;
+}
+
+.title {
+  margin-left: 8px;
+  position: relative;
+  font-weight: bold;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  background: rgb(151, 151, 151);
+  left: 0;
+  bottom: -5px;
+  width: 30px;
+  height: 3px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-container {
+  position: relative;
+  width: 350px;
+  background-color: rgba(243, 243, 237, 0.589);
+  padding-bottom: 40px;
+}
+
+.image-box {
+  padding: 15px 0 0 0;
+}
+
+.name {
+  margin: 10px 0 13px 0;
+}
+
+.greet-text {
+  background-color: rgba(52, 209, 5, 0.3);
+  margin-bottom: 20px;
+  color: aliceblue;
+  padding: 5px 0 7px;
+}
+
+.mates-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin-left: 7px;
+}
+
+.mate-box {
+  text-align: center;
+}
+
+.mate-name {
+  margin: 0;
+  padding-bottom: 15px;
+  color: rgb(59, 59, 59);
+}
+
+.birth-wrapper {
+  background-image: url('C:\Users\maxim\OneDrive\Рабочий стол\project\src\images\tasty-cake-with-burning-candle-wand.jpg');
+  background-size: 350px;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  margin-left: 8px;
+}
+
+table.text {
+  width: 100%;
+  border-spacing: 0;
+}
+table.text td {
+  width: 50%;
+  vertical-align: top;
+}
+td.rightcol {
+  text-align: right;
+}
+
+.vacancies-list {
+  color: rgb(161, 161, 161);
+  padding-left: 8px;
+  font-size: 16px;
+}
+
+.vacancie {
+  border-bottom: 2px solid rgb(161, 161, 161);
+}
+
+.list-headline {
+  padding-left: 8px;
+}
+
+.look-calendar {
+  height: 300px;
+  padding: 6px;
+  margin: 0 auto;
+}
+#calendar {
+  width: 100%;
+  line-height: 1.2em;
+  font-size: 20px;
+  text-align: center;
+  border-spacing: 10px;
+}
+#calendar tr.dn td {
+  font-size: 17px;
+}
+
+#calendar thead tr:last-child {
+  font-size: small;
+  color: #555555;
+}
+#calendar thead tr:nth-child(1) td:nth-child(2) {
+  color: #323232;
+}
+#calendar thead tr:nth-child(1) td:nth-child(1):hover,
+#calendar thead tr:nth-child(1) td:nth-child(3):hover {
+  cursor: pointer;
+}
+#calendar tbody td {
+  color: #2c567a;
+}
+#calendar tbody td:nth-child(n + 6),
+#calendar .holiday {
+  color: #e78c5c;
+}
+#calendar tbody td.today {
+  background: #dc0000;
+  color: #fff;
+}
